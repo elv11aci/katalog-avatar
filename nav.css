@@ -1,0 +1,47 @@
+/* RESET & BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFEACA;
+  padding: 15px 40px;
+  position: fixed;   /* selalu di atas */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;     /* paling depan */
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar-left img {
+  width: 40px;
+}
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  font-weight: 600;
+}
+.navbar-links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+.navbar button {
+  background: #FFB6C1;
+  border: 2px solid #000;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
