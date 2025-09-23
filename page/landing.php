@@ -1,29 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="nav.css">
-<body>
-
-<!-- NAVBAR -->
-<nav class="navbar">
-  <div class="navbar-left">
-    <img src="https://cdn-icons-png.flaticon.com/512/921/921490.png" alt="logo">
-    <div class="navbar-links">
-      <a href="landingpage.html">style</a>
-      <a href="shopall.html">catalog</a>
-    </div>
-  </div>
-  <a href="login.html" class="btn-login">Login</a>
-</nav>
-
-
   <!-- HERO SECTION -->
   <section class="hero">
     <div class="hero-left">
       <h1>LEVEL UP<br>YOUR ROBLOX STYLE</h1>
       <p>Explore thousands of unique Roblox avatar styles—sweet, elegant, and fantastical—all curated to help you stand out.</p>
       <h2 class="brand">SkinPick!</h2>
-      <a href="shopall.html" class="btn">EXPLORE</a>
+      <a href="landing2.html" class="btn">EXPLORE</a>
     </div>
 
     <div class="hero-right">
@@ -66,18 +47,3 @@
     </div>
   </div>
 </section>
-
-
-  <!-- FOOTER -->
-  <footer>
-    <p>SkinPick adalah tempat pilihan para gamer untuk mencari dan memilih avatar Roblox keren, unik, dan kekinian! Sejak 2020, kami telah dipercaya ribuan pemain dan kreator konten di Indonesia untuk tampil beda di Roblox!</p>
-    <div class="footer-links">
-      <a href="#">Bantuan & Keluhan</a>
-      <a href="#">WhatsApp</a>
-      <a href="#">Instagram</a>
-      <a href="#">Beli Avatar</a>
-    </div>
-  </footer>
-
-</body>
-</html>

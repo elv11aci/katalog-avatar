@@ -1,4 +1,11 @@
-body {
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SkinPick</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="nav.css">
+  <style>
+    body {
   background: #FFEACA; 
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -11,7 +18,7 @@ body {
   align-items: center;
   min-height: 100vh;
   background: linear-gradient(to right, #DC6D9C 70%, #291948 30%);
-  padding: 120px 60px 0; /* kasih jarak biar ga ketiban navbar */
+  padding: 120px 60px 0; 
   position: relative;
 }
 
@@ -100,7 +107,7 @@ body {
   padding: 15px 30px;
   border-radius: 0px;
   position: absolute;
-  top: -62px;   /* biar muncul di luar kotak pink */
+  top: -62px;   
   left: 50%;
   transform: translateX(-50%);
   margin: 0;
@@ -109,7 +116,7 @@ body {
 .avatar-card {
   display: flex;
   align-items: center;
-  background: #DC6D9C 70%;   /* contoh warna dalam card */
+  background: #DC6D9C 70%;   
   padding: 20px;
   border-radius: 0px;
   margin: 20px 0;
@@ -141,41 +148,5 @@ body {
   text-decoration: none;
   font-weight: bold;
 }
-
-
-
-/* FOOTER */
-footer {
-  background: #2b124c;
-  color: white;
-  padding: 40px 20px;
-  text-align: center;
-}
-
-footer p {
-  font-size: 14px;
-  max-width: 800px;
-  margin: 0 auto 20px;
-  line-height: 1.6;
-}
-
-.footer-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
-}
-
-.footer-links a {
-  color: #fff;
-  font-size: 14px;
-  text-decoration: none;
-  background: #443069;
-  padding: 8px 16px;
-  border-radius: 20px;
-  transition: background 0.3s;
-}
-
-.footer-links a:hover {
-  background: #5d4396;
-}
+  </style>
+</head>
