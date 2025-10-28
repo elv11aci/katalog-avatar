@@ -3,6 +3,8 @@
   require_once '../komponen/navbar.php'; 
 ?>
 
+<link rel="stylesheet" href="../komponen/style.css">
+
 <!-- HERO SECTION -->
 <section class="hero">
   <div class="hero-left">
