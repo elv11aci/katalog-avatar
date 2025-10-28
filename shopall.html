@@ -6,137 +6,9 @@
   <title>SkinPick</title>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="style.css">
    
-   <style>
-    /* HERO */
-    .hero {
-      text-align: center;
-      padding: 40px 20px;
-      margin-top: 70px; /* biar ga ketutup navbar */
-    }
-
-    .hero h1 {
-      font-size: 28px;
-      font-weight: 700;
-    }
-
-    /* TITLE ATAS KATALOG */
-    .catalog-title {
-      text-align: center;
-      margin: 30px 0 10px;
-    }
-
-    .catalog-title h2 {
-      font-size: 26px;
-      font-weight: 700;
-      color: #333;
-    }
-
-    /* CATALOG GRID */
-    .catalog {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 25px;
-      padding: 20px 60px;
-    }
-
-    .card {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      border-radius: 15px;
-      padding: 70px;
-      text-align: center;
-      position: relative;
-      background: #f28bbd; /* default */
-      overflow: hidden; /* supaya gambar ga keluar */
-    }
-
-    .card img {
-      max-width: 200%;
-      height: auto;
-      transition: transform 0.3s ease;
-      transform-origin: center; /* scaling dari tengah */
-    }
-
-    .card img:hover {
-      transform: scale(1.2); /* gambar membesar tapi tetap di tengah */
-    }
-
-    .card h3 {
-      margin-top: 10px;
-      font-size: 18px;
-    }
-
-    .card p {
-      margin-top: 5px;
-      font-size: 14px;
-    }
-
-    /* TAG (⭐) */
-    .tag {
-      position: absolute;
-      top: 8px;
-      left: 8px;
-      background: #fdd835;
-      border-radius: 50px;
-      padding: 3px 10px;
-      font-size: 12px;
-      font-weight: bold;
-    }
-
-    /* WARNA BEDA-BEDA */
-    .card:nth-child(1) { background: #b298dc; }
-    .card:nth-child(2) { background: #f28bbd; }
-    .card:nth-child(3) { background: #ffd580; }
-    .card:nth-child(4) { background: #f28bbd; }
-    .card:nth-child(5) { background: #98ddca; }
-    .card:nth-child(6) { background: #ffaaa7; }
-    .card:nth-child(7) { background: #fbc4ab; }
-    .card:nth-child(8) { background: #a0c4ff; }
-    .card:nth-child(9) { background: #d0aaff; }
-    .card:nth-child(10) { background: #ffcad4; }
-    .card:nth-child(11) { background: #b5ead7; }
-    .card:nth-child(12) { background: #ffd6a5; }
-
-    /* FOOTER */
-footer {
-  background: #2b124c;
-  color: white;
-  padding: 40px 20px;
-  text-align: center;
-}
-
-footer p {
-  font-size: 14px;
-  max-width: 800px;
-  margin: 0 auto 20px;
-  line-height: 1.6;
-}
-
-.footer-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
-}
-
-.footer-links a {
-  color: #fff;
-  font-size: 14px;
-  text-decoration: none;
-  background: #443069;
-  padding: 8px 16px;
-  border-radius: 20px;
-  transition: background 0.3s;
-}
-
-.footer-links a:hover {
-  background: #5d4396;
-}
-
-   </style>
+   
 </head>
 <body>
   
@@ -152,7 +24,7 @@ footer p {
   <a href="login.html" class="btn-login">Login</a>
 </nav>
 
-  <section class="hero">
+  <section class="heroshop">
     <h1>Let’s Make Your Avatar to be Star!</h1>
   </section>
 

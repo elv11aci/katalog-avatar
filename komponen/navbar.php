@@ -1,12 +1,10 @@
-<?php include '/nav.css' ?>
 <nav class="navbar">
-    <div class="navbar-left">
-      <img src="https://cdn-icons-png.flaticon.com/512/921/921490.png" alt="logo">
-      <div class="navbar-links">
-        <a href="landingpage.html">style</a>
-        <a href="shopall.html">catalog</a>
-      </div>
+  <div class="navbar-left">
+    <img src="https://cdn-icons-png.flaticon.com/512/921/921490.png" alt="logo" class="logo">
+    <div class="navbar-links">
+      <a href="../pages/landing.php">Style</a>
+      <a href="../pages/shop.php">Catalog</a>
     </div>
-    <button>Login</button>
-  </nav>
-   
+  </div>
+  <a href="#" class="btn-login">Login</a>
+</nav>
