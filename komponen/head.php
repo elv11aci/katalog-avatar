@@ -10,5 +10,6 @@
 
   <!-- CSS Global -->
   <link rel="stylesheet" href="../komponen/style.css">
+  <link rel="stylesheet" href="../komponen/nav.css">
 </head>
 <body>
