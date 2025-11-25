@@ -149,41 +149,6 @@ font-size: 36px;
 
 
 
-/* FOOTER */
-footer {
-  background: #2b124c;
-  color: white;
-  padding: 40px 20px;
-  text-align: center;
-}
-
-footer p {
-  font-size: 14px;
-  max-width: 800px;
-  margin: 0 auto 20px;
-  line-height: 1.6;
-}
-
-.footer-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
-}
-
-.footer-links a {
-  color: #fff;
-  font-size: 14px;
-  text-decoration: none;
-  background: #443069;
-  padding: 8px 16px;
-  border-radius: 20px;
-  transition: background 0.3s;
-}
-
-.footer-links a:hover {
-  background: #5d4396;
-}
 
 /* shop */
 /* HERO */

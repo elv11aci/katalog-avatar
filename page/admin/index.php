@@ -42,6 +42,12 @@
                 <span class="hide-menu">Dashboard</span>
               </a>
             </li>
+            <li class="sidebar-item">
+            <a class="sidebar-link" href="?page=genre" aria-expanded="false">
+              <i class="ti ti-typography"></i>
+              <span class="hide-menu">Input Genre</span>
+            </a>
+          </li>
             <!-- ---------------------------------- -->
             <!-- Dashboard -->
             <!-- ---------------------------------- -->
