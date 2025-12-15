@@ -1,40 +1,40 @@
 <?php
 class Genre{
 private $connection;
-private $table = &quot;tb_genre&quot;; // nama tabel genre dalam database saya
+private $table = "tb_genre"; // nama tabel genre dalam database saya
 // public $id;
 public $nama;
 //membuat method __construct agar koneksi database langsung bisa dibuat Ketika class ini
 //membuat object baru.
 public function __construct($db){
-$this-&gt;connection = $db;
+$this->connection = $db;
 }
 
 public function read(){
 try {
 
-$query = &quot;SELECT * FROM &quot;.$this-&gt;table;
-$stmt = $this-&gt;connection-&gt;prepare($query);
-$stmt-&gt;execute();
+$query = "SELECT * FROM".$this>table;
+$stmt = $this->connection->prepare($query);
+$stmt->execute();
 return $stmt;
 }
 catch(\Exception $e){
-echo $e-&gt;getMessage();
+echo $e->getMessage();
 }
 }
 
 public function store(){
 try{
-$query = &quot;INSERT INTO &quot;.$this-&gt;table.&quot; (nama) VALUES (?)&quot;;
-$stmt = $this-&gt;connection-&gt;prepare($query);
-$this-&gt;nama = htmlspecialchars(strip_tags($this-&gt;nama));
-$stmt-&gt;bind_param(&quot;s&quot;, $this-&gt;nama);
-if ($stmt-&gt;execute())
+$query = "INSERT INTO".$this->table."(nama) VALUES (?)";
+$stmt = $this->connection->prepare($query);
+$this->nama = htmlspecialchars(strip_tags($this->nama));
+$stmt->bind_param("s",$this->nama);
+if ($stmt->execute())
 return true;
 return false;
 }
 catch (\Exception $e){
-echo $e-&gt;getMessage();
+echo $e->getMessage();
 return false;
 }
 }

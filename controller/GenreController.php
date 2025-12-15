@@ -4,16 +4,16 @@ private $db;
 private $genre; // deklarasi variable genre
 public function __construct(){
 $dbase = new Database();
-$this-&gt;db = $dbase-&gt;getConnection();
-$this-&gt;genre = new Genre($this-&gt;db); // membuat object dari class model Genre
+$this->db = $dbase->getConnection();
+$this->genre = new Genre($this->db); // membuat object dari class model Genre
 
 }
 public function create() {
-include &quot;page/input_genre.php&quot;;
+include "page/input_genre.php";
 }
 public function store() {
-$this-&gt;genre-&gt;nama = $_POST[&#39;nama&#39;];
-$this-&gt;genre-&gt;create(); /* memanggil method create dari class Genre dalam
+$this->genre->nama = $_POST['nama'];
+$this->genre->create(); /* memanggil method create dari class Genre dalam
 
 model/Genre */
 
